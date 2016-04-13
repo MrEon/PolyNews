@@ -1,11 +1,15 @@
 package fr.unice.polytech.polynews;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by user on 13/04/2016.
@@ -36,9 +40,19 @@ public class NewsListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-        TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-        textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+        View rootView = inflater.inflate(R.layout.fragment_news_list, container, true);
+        GridView cards = (GridView) rootView.findViewById(R.id.gridView);
+        cards.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v,
+                                    int position, long id) {
+                Toast.makeText(getContext(), "" + position,
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+        View tiles = inflater.inflate(R.layout.article_layout, cards, false );
+        tiles.setBackgroundColor(Color.DKGRAY);
+        //TextView textView = (TextView) rootView.findViewById(R.id.title);
+        //textView.setText(getString(R.string.societe, "Article Lambda"));
         return rootView;
     }
 }
