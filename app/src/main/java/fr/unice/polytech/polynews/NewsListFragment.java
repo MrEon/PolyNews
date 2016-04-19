@@ -25,12 +25,12 @@ public class NewsListFragment extends Fragment {
     private static final String ARG_SECTION_NUMBER = "The NEWS!";
     private NewsDataBaseHelper mDB;
     public NewsListFragment() {
-        try {
+        /*try {
             mDB = new NewsDataBaseHelper(getContext());
             mDB.createDataBase();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
     /**
