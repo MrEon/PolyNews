@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class NewsDataBaseHelper extends SQLiteOpenHelper {
 
-    private static String DB_PATH = "/data/data/jabs.polynews/databases/";
+    private static String DB_PATH = "/data/data/fr.unice.polytech.polynews/databases/";
     private static String DB_NAME = "polynews_database";
 
     private SQLiteDatabase myDataBase;
