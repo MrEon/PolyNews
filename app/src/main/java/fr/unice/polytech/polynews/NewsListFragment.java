@@ -11,6 +11,8 @@ import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOException;
+
 /**
  * Created by user on 13/04/2016.
  */
@@ -21,8 +23,14 @@ public class NewsListFragment extends Fragment {
      * fragment.
      */
     private static final String ARG_SECTION_NUMBER = "The NEWS!";
-
+    private NewsDataBaseHelper mDB;
     public NewsListFragment() {
+        try {
+            mDB = new NewsDataBaseHelper(getContext());
+            mDB.createDataBase();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     /**
