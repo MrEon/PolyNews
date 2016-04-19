@@ -40,7 +40,7 @@ public class NewsListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_news_list, container, true);
+        View rootView = inflater.inflate(R.layout.fragment_news_list, container, false);
         GridView cards = (GridView) rootView.findViewById(R.id.gridView);
         cards.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
@@ -51,8 +51,8 @@ public class NewsListFragment extends Fragment {
         });
         View tiles = inflater.inflate(R.layout.article_layout, cards, false );
         tiles.setBackgroundColor(Color.DKGRAY);
-        //TextView textView = (TextView) rootView.findViewById(R.id.title);
-        //textView.setText(getString(R.string.societe, "Article Lambda"));
+        /*TextView textView = (TextView) rootView.findViewById(R.id.title);
+        textView.setText(getString(R.string.societe, "Article Lambda"));*/
         return rootView;
     }
 }
