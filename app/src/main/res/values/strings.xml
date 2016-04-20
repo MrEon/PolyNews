@@ -4,4 +4,34 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="societe">Societé</string>
     <string name="culture">Culture</string>
+    <string name="polynewsTitle">PolyNews</string>
+    <string name="bda">Il a pour but de regrouper plusieurs clubs artistiques dans le même Bureau pour une gestion plus simple.</string>
+    <string name="bdaTitle">Le Bureau Des Arts</string>
+    <string name="bdeTitle">Les associations du BDE</string>
+    <string name="bdaButton">Bureau Des Arts</string>
+    <string name="bdjButton">Bureau Des Jeux</string>
+    <string name="pompomButton">Club Pompom</string>
+    <string name="montagneButton">Club Montagne</string>
+    <string name="bdsButton">Bureau Des Sports</string>
+    <string name="bdmButton">Bureau Des Musiciens</string>
+    <string name="bdcButton">Bureau Du Cinéma</string>
+    <string name="photoButton">Club Photographie</string>
+    <string name="theatreButton">Club Théâtre</string>
+    <string name="bdcTitle">Le Bureau Du Cinéma</string>
+    <string name="bdc">Le Bureau Du Cinéma organise régulièrement pour les adhérents des diffusions de films des les amphithéâtres.\nDe plus, les adhérents du BDC peuvent aller au cinéma pour 4€ grâce à un partenariat avec un cinéma dans Valbonne.</string>
+    <string name="bdjTitle">Le Bureau Des Jeux</string>
+    <string name="bdj">Le Bureau Des Jeux est une association qui organise beaucoup d\'événements divers et variés, allant du tournoi de jeux vidéo à l\'organisation de Laser Game en passant par des jeux de société...Il sauront vous amuser et vous divertir!</string>
+    <string name="bdmTitle">Le Bureau Des Musiciens</string>
+    <string name="bdm">Le Bureau Des Musiciens est une association qui rassemble les étudiants musiciens du campus. Il met du matériel à disposition des étudiants, pour qu\'ils puissent répéter sur place.\nL\'organisation est vouée à évoluer à partir de l\'année prochaine, des concerts, des cours de musique, des initiations pour les débutants, et des \"boeufs\" seront organisés afin d\'animer la vie du campus.</string>
+    <string name="bdsTitle">Le Bureau Des Sports</string>
+    <string name="bds">Le Bureau Des Sports est l\'association qui gère tous les événements sportifs tels que les Olympiades. Leur dynamisme saura vous motiver à coup sûr!</string>
+    <string name="montagneTitle">Le Club Montagne</string>
+    <string name="montagne">Le Club Montagne est un nouveau club qui fera son apparition l\'année prochaine. Il a pour but de regrouper tous les étudiants passionnés par la montagne. Que ce soit pour le ski, la randonnée ou l\'escalade, tout le monde y trouvera son compte.</string>
+    <string name="photoTitle">Le Club Photo</string>
+    <string name="photo">Le Club Photo est une nouveauté qui va arriver l\'année prochaine. Il s\'agit d\'un club qui réunira les étudiants passionnés de photographie.</string>
+    <string name="pompomTitle">Le Club Pompom</string>
+    <string name="pompom">Le club pompom sera fondé dès l\'année prochaine, nous pourrons toujours compter sur nos pompom girls pour animer les soirées et événements sportifs.</string>
+    <string name="theatreTitle">Le Club Théâtre</string>
+    <string name="theatre">Le club théâtre permet à chacun de s\'exprimer librement au cours d\'activités de groupe et lors de représentations.</string>
+
 </resources>

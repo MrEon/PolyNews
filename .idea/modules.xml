@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/PolyNews.iml" filepath="$PROJECT_DIR$/PolyNews.iml" />
       <module fileurl="file://$PROJECT_DIR$/PolyNewsGithub.iml" filepath="$PROJECT_DIR$/PolyNewsGithub.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

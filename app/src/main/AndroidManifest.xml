@@ -20,6 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".renaud.AssocMain"></activity>
+        <activity android:name=".renaud.BdaActivity"></activity>
+        <activity android:name=".renaud.BdmActivity"></activity>
+        <activity android:name=".renaud.BdcActivity"></activity>
+        <activity android:name=".renaud.TheatreActivity"></activity>
+        <activity android:name=".renaud.PhotoActivity"></activity>
+        <activity android:name=".renaud.BdjActivity"></activity>
+        <activity android:name=".renaud.PompomActivity"></activity>
+        <activity android:name=".renaud.MontagneActivity"></activity>
+        <activity android:name=".renaud.BdsActivity"></activity>
     </application>
 
 </manifest>
