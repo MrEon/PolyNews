@@ -14,6 +14,8 @@ import android.view.View;
 
 import android.widget.ImageButton;
 
+import java.sql.SQLException;
+
 import fr.unice.polytech.polynews.renaud.AssocFragment;
 import fr.unice.polytech.polynews.renaud.AssocMain;
 

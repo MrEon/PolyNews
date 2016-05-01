@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import fr.unice.polytech.polynews.R;
 
@@ -51,6 +52,14 @@ public class BdaActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent photoIntent = new Intent(v.getContext(),PhotoActivity.class);
                 startActivityForResult(photoIntent,0);
+            }
+        });
+
+        final ImageButton backHome = (ImageButton) findViewById(R.id.back_home);
+        backHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
 

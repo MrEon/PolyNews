@@ -4,13 +4,32 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/bdaTitle"
-        android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#2861e4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/bdaTitle"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#ffffff" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:id="@+id/back_home"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/back_arrow_alpha"
+            android:clickable="false"
+            android:background="#2861e4" />
+    </FrameLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +42,7 @@
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="0.46"
         android:textAlignment="center"
         android:layout_marginTop="50dp"
